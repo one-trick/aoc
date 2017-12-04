@@ -7,7 +7,6 @@ part2file="non_duped_input"
 if [ -e $part2file ]
 then
 	# we use this file to solve part 2. If it's already there, we want a clean slate
-	echo "Part 2 existed. Deleting"
 	rm $part2file
 fi
 
