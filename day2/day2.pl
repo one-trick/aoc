@@ -94,7 +94,6 @@ while(<FH>)
 	}
     }
 }
-# 261
 print "Checksum = $pt2checksum\n";
 close FH;
 
