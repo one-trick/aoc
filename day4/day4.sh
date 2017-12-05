@@ -23,7 +23,7 @@ do
 	then
 		# for part 2, we are going to save off our non-duplicated input
 		# it requires us to find words that aren't anagrams, so obviously duplicates aren't needed
-		echo $line >> non_duped_input
+		echo $line >> $non_duped_input
 		((counter++))
 	fi
 done < $file
